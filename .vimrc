@@ -15,8 +15,6 @@ if has("gui_running")
     set guifont=Meslo\ LG\ S\ Regular\ for\ Powerline:h14
 endif
 
-" size
-
 " buffer
 nnoremap <silent> [b :bprevious<CR>
 nnoremap <silent> ]b :bnext<CR>
@@ -37,6 +35,8 @@ Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " airline
+:set laststatus=2
+
 let g:airline_powerline_fonts = 1
 
 if !exists('g:airline_symbols')
