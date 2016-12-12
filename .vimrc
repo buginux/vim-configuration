@@ -8,6 +8,9 @@ set encoding=utf-8
 set relativenumber
 set number
 
+" cursor
+set gcr=n:blinkon0
+
 " gui
 if has("gui_running")
     colorscheme elflord
